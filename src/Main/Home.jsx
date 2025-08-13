@@ -14,7 +14,7 @@ export default function Home() {
     <>
 
     <div className="bg-[#1E2227] text-white relative overflow-x-hidden mt-0">
-      <section className="max-w-6xl mx-auto px-12 py-10 md:py-0 grid md:grid-cols-2 items-center gap-20  relative">
+      <section className="max-w-6xl w-full px-12 py-10 md:py-0 grid md:grid-cols-2 items-center gap-20 mt-2 relative">
         {/* Left Content */}
         <div className="text-center md:text-left mt-[-32px]">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight ">
@@ -70,23 +70,23 @@ export default function Home() {
 
        {/* Feature Sections */}
 <div>
-  <div className="bg-[#0b0c0d] font-sans text-white min-h-screen py-16 px-4   gap-10 md:px-16 flex flex-col items-center">
+  <div className="bg-white font-sans text-gray-900 min-h-screen py-16 px-8 md:px-18 flex flex-col items-center">
     <div className="container mx-auto max-w-7xl">
-     
-      <div className="flex flex-col md:flex-row md:items-stretch md:gap-14 lg:gap-32">
+      {/* Parent flex with responsive gaps */}
+      <div className="flex flex-col md:flex-row md:items-stretch gap-y-12 md:gap-y-0 md:gap-x-14 lg:gap-x-36">
         
-        {/* Left Column - Voice Assistant  */}
-        <div className="flex flex-col text-center max-w-md w-full mb-12 md:mb-0 flex-1">
-          <h2 className="text-2xl font-bold mb-6 text-gray-200">
+        {/* Left Column */}
+        <div className="flex flex-col gap-y-8 max-w-md w-full flex-1 px-4 min-h-0">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">
             Make every customer call feel personal with AI
           </h2>
-          <p className="text-md text-gray-400 mb-8">
+          <p className="text-md text-gray-500">
             Build human-like voice assistants—test, train, and deploy
             with speed and confidence.
           </p>
 
           {/* Outer Box */}
-          <div className="bg-[#1a1a1f] p-4 rounded-3xl shadow-xl border border-gray-700 flex-1 flex">
+          <div className="bg-[#1a1a1f] p-4 rounded-3xl shadow-xl border border-gray-700 flex-1 flex min-h-0">
             {/* Inner Image */}
             <div className="bg-[#121215] rounded-2xl flex-1 relative overflow-hidden">
               <img
@@ -94,23 +94,23 @@ export default function Home() {
                 alt="Voice Assistant"
                 className="w-full h-full object-contain rounded-xl"
               />
-              <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+              <div className="absolute top-0 left-0 w-full h-full"></div>
             </div>
           </div>
         </div>
 
-        {/* Right Column - Chat Assistant  */}
-        <div className="flex flex-col text-center max-w-md w-full flex-1 item-center">
-          <h2 className="text-2xl font-bold mb-6 text-gray-200">
+        {/* Right Column */}
+        <div className="flex flex-col gap-y-8 max-w-md w-full flex-1 px-4 min-h-0">
+          <h2 className="text-2xl font-bold mb-6 text-gray-900">
             Chat Agents with Advanced Customization
           </h2>
-          <p className="text-md text-gray-400 mb-8">
+          <p className="text-md text-gray-500">
             Build AI-powered Chat Agents with deep functionality and
             fully customizable interfaces—tailored to your brand.
           </p>
 
           {/* Outer Box */}
-          <div className="bg-[#1a1a1f] p-4 rounded-3xl shadow-xl border border-gray-700 flex-1 flex">
+          <div className="bg-[#1a1a1f] p-4 rounded-3xl shadow-xl border border-gray-700 flex-1 flex min-h-0">
             {/* Inner Image */}
             <div className="bg-[#121215] rounded-2xl flex-1 relative overflow-hidden">
               <img
@@ -118,7 +118,7 @@ export default function Home() {
                 alt="Chat Mockup"
                 className="w-full h-full object-contain rounded-2xl"
               />
-              <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-t from-gray-900 via-transparent to-transparent"></div>
+              <div className="absolute top-0 left-0 w-full h-full "></div>
             </div>
           </div>
         </div>
@@ -127,6 +127,7 @@ export default function Home() {
     </div>
   </div>
 </div>
+
 
 
 
@@ -143,9 +144,10 @@ export default function Home() {
         {/* Use Case Section */}
 <div className="bg-white font-sans text-black min-h-screen py-20 px-6 md:px-16 flex flex-col items-center">
   <div className="container mx-auto max-w-5xl text-center mb-20">
-    <p className="text-lg font-semibold text-blue-600 mb-4 uppercase tracking-wide">
-      Use Case
-    </p>
+<p className="text-lg font-semibold text-blue-600 mb-4 uppercase tracking-wide hover:text-blue-800 cursor-pointer">
+  Use Case
+</p>
+
     <h1 className="text-4xl sm:text-5xl font-extrabold tracking-tight mb-6 leading-tight">
       Start smart with support, scale smarter
       <br className="hidden md:inline" />
@@ -163,9 +165,9 @@ export default function Home() {
       <div className="flex flex-col items-center lg:items-start text-center lg:text-left max-w-md w-full mb-12 lg:mb-0">
         <div className="w-28 h-28 rounded-lg mb-8 flex items-center justify-center shadow-md">
           <img
-            src="./images/box4.png"
+            src="./images/am.jpg"
             alt="AI Illustration"
-            className="max-h-20 max-w-full object-contain"
+            className="max-h-40 max-w-full object-cover"
           />
         </div>
         <h2 className="text-4xl font-extrabold mb-6 text-gray-900 leading-snug">

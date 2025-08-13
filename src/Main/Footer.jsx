@@ -4,7 +4,7 @@ import { FaFacebookF, FaInstagram, FaYoutube, FaTwitter } from "react-icons/fa";
 
 export default function Footer() {
   return (
-    <footer className="bg-[#1E2227] text-gray-300 relative overflow-hidden">
+    <footer className="bg-[#1E2227] text-gray-300 w-full relative overflow-hidden">
       {/* Pattern overlays */}
       <div className="absolute top-0 left-0 w-40 h-40 bg-[radial-gradient(circle,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[length:10px_10px] rounded-full -translate-x-1/2 -translate-y-1/2"></div>
       <div className="absolute bottom-0 right-0 w-40 h-40 bg-[radial-gradient(circle,rgba(255,255,255,0.1)_1px,transparent_1px)] bg-[length:10px_10px] rounded-full translate-x-1/2 translate-y-1/2"></div>
