@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <>
 
-    <div className="bg-[#1E2227] text-white relative overflow-x-hidden mt-0">
-      <section className="max-w-7xl w-full px-12 py-8 md:py-0 grid md:grid-cols-2 items-center gap-15 mt-2 relative">
+    <div className="bg-[#1E2227] text-white w-full relative overflow-x-hidden mt-0">
+      <section className="max-w-7xl w-full px-12 py-8 md:py-0 grid md:grid-cols-2 items-center gap-30 mt-2 relative">
         {/* Left Content */}
         <div className="text-center md:text-left mt-[-32px]">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight ">
@@ -70,7 +70,8 @@ export default function Home() {
 
        {/* Feature Sections */}
 <div>
-  <div className="bg-white font-sans w-full text-gray-900 min-h-screen py-10 px-8 md:px-24 flex flex-col  items-center">
+ <div className="bg-white font-sans w-full text-gray-900 py-10 px-8 md:px-24 flex flex-col  items-center">
+
     <div className="container mx-auto max-w-7xl">
       {/* Parent flex with responsive gaps */}
       <div className="flex flex-col md:flex-row md:items-stretch gap-y-12 md:gap-y-0 md:gap-x-14 lg:gap-x-36">
