@@ -13,8 +13,8 @@ export default function Home() {
   return (
     <>
 
-    <div className="bg-[#1E2227] text-white w-full relative overflow-x-hidden mt-0">
-      <section className="max-w-7xl w-full px-12 py-8 md:py-0 grid md:grid-cols-2 items-center gap-30 mt-2 relative">
+    <div className="bg-[#1E2227] text-white w-full  overflow-x-hidden mt-0">
+      <section className=" w-full px-12 py-0  md:px-28 grid md:grid-cols-2 items-center gap-40 mt-10 relative">
         {/* Left Content */}
         <div className="text-center md:text-left mt-[-32px]">
           <h1 className="text-3xl md:text-5xl font-bold leading-tight ">
@@ -70,14 +70,14 @@ export default function Home() {
 
        {/* Feature Sections */}
 <div>
- <div className="bg-white font-sans w-full text-gray-900 py-10 px-8 md:px-24 flex flex-col  items-center">
+ <div className="bg-white font-sans w-full text-gray-900 py-16 px-20 md:px-60 flex flex-col  items-center ">
 
-    <div className="container mx-auto max-w-7xl">
+    <div className="container mx-auto w-full">
       {/* Parent flex with responsive gaps */}
-      <div className="flex flex-col md:flex-row md:items-stretch gap-y-12 md:gap-y-0 md:gap-x-14 lg:gap-x-36">
+      <div className="flex flex-col md:flex-row md:items-stretch  gap-y-12 md:gap-y-0 md:gap-x-14 lg:gap-x-34">
         
         {/* Left Column */}
-        <div className="flex flex-col gap-y-8 max-w-md w-full flex-1 px-4 min-h-0">
+        <div className="flex flex-col gap-y-8 max-w-md w-full flex-1 px-4 ">
           <h2 className="text-2xl font-bold mb-6 text-gray-900">
             Make every customer call feel personal with AI
           </h2>
@@ -87,7 +87,7 @@ export default function Home() {
           </p>
 
           {/* Outer Box */}
-          <div className="bg-[#1a1a1f] p-4 rounded-3xl shadow-xl border border-gray-700 flex-1 flex min-h-0">
+          <div className="bg-[#1a1a1f] p-4 rounded-2xl shadow-xl border  border-gray-700 flex-1 flex ">
             {/* Inner Image */}
             <div className="bg-[#121215] rounded-2xl flex-1 relative overflow-hidden">
               <img
@@ -101,12 +101,12 @@ export default function Home() {
         </div>
 
         {/* Right Column */}
-        <div className="flex flex-col gap-y-8 max-w-md w-full flex-1 px-4 min-h-0">
+        <div className="flex flex-col gap-y-8 max-w-md  w-full flex-1 px-4 min-h-0">
           <h2 className="text-2xl font-bold mb-6 text-gray-900">
             Chat Agents with Advanced Customization
           </h2>
           <p className="text-md text-gray-500">
-            Build AI-powered Chat Agents with deep functionality and
+            Build AI-powered Chat Agents with deep functio and
             fully customizable interfaces—tailored to your brand.
           </p>
 

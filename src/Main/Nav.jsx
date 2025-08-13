@@ -10,7 +10,7 @@ export default function Nav() {
       <div className="max-w-7xl mx-auto flex justify-between items-center px-4 py-4">
         {/* Logo */}
         <Link to="/" className="flex items-center gap-2">
-          <img src="./images/loggo.png" alt="Logo" className="h-15 w-auto" />
+          <img src="./images/loggo.png" alt="Logo" className="h-18 w-auto" />
         </Link>
 
         {/* Desktop menu */}
